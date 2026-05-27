@@ -7,10 +7,6 @@ class Student:
     age: int
     grade: float
 
-    def __init__(self, name, age, grade):
-        self.name = name
-        self.age = age
-        self.grade = grade
 
 student_data = input(
     "Digite os dados do aluno no formato Nome, Idade, Nota separados por vírgula\t->"
