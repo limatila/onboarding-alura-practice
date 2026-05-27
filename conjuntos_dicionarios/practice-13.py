@@ -23,6 +23,7 @@ class Category(ShowReprAsStrMixin):
         
         return total_value
 
+
 class Product(ShowReprAsStrMixin):
     def __init__(self, name: str, quantity: int, unit_value: float):
         self.name = name
@@ -35,6 +36,7 @@ class Product(ShowReprAsStrMixin):
     @property
     def total_value(self):
         return self.quantity * self.unit_value
+
 
 vendas = { 
     "Eletrônicos": [
